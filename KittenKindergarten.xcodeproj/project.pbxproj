@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C61C79028AE016800A4EAB8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6C61C78F28AE016800A4EAB8 /* FirebaseAuth */; };
+		6C61C79228AE016800A4EAB8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6C61C79128AE016800A4EAB8 /* FirebaseFirestore */; };
+		6C61C79428AE016800A4EAB8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6C61C79328AE016800A4EAB8 /* FirebaseFirestoreSwift */; };
+		6C61C79628AE016F00A4EAB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C61C79528AE016F00A4EAB8 /* GoogleService-Info.plist */; };
+		6CA17A5428ADFF690055BECB /* KittenKindergartenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A5328ADFF690055BECB /* KittenKindergartenApp.swift */; };
+		6CA17A5628ADFF690055BECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A5528ADFF690055BECB /* ContentView.swift */; };
+		6CA17A5828ADFF6A0055BECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA17A5728ADFF6A0055BECB /* Assets.xcassets */; };
+		6CA17A5B28ADFF6A0055BECB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA17A5A28ADFF6A0055BECB /* Preview Assets.xcassets */; };
+		6CA17A6528ADFF6A0055BECB /* KittenKindergartenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A6428ADFF6A0055BECB /* KittenKindergartenTests.swift */; };
+		6CA17A6F28ADFF6A0055BECB /* KittenKindergartenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A6E28ADFF6A0055BECB /* KittenKindergartenUITests.swift */; };
+		6CA17A7128ADFF6A0055BECB /* KittenKindergartenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A7028ADFF6A0055BECB /* KittenKindergartenUITestsLaunchTests.swift */; };
+		6CA17A8128ADFFEA0055BECB /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A8028ADFFEA0055BECB /* Group.swift */; };
+		6CA17A8328AE000E0055BECB /* GroupCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A8228AE000E0055BECB /* GroupCellViewModel.swift */; };
+		6CA17A8528AE00200055BECB /* GroupListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A8428AE00200055BECB /* GroupListViewModel.swift */; };
+		6CA17A8728AE00360055BECB /* AgeGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A8628AE00360055BECB /* AgeGroupView.swift */; };
+		6CA17A8928AE004A0055BECB /* AgeQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A8828AE004A0055BECB /* AgeQuizView.swift */; };
+		6CA17A8B28AE005B0055BECB /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A8A28AE005B0055BECB /* QuestionView.swift */; };
+		6CA17A8D28AE00690055BECB /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A8C28AE00690055BECB /* ResultView.swift */; };
+		6CA17A8F28AE00740055BECB /* GroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A8E28AE00740055BECB /* GroupListView.swift */; };
+		6CA17A9128AE00890055BECB /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A9028AE00890055BECB /* Styles.swift */; };
+		6CA17A9328AE009C0055BECB /* GroupRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA17A9228AE009C0055BECB /* GroupRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CA17A6128ADFF6A0055BECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA17A4828ADFF690055BECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA17A4F28ADFF690055BECB;
+			remoteInfo = KittenKindergarten;
+		};
+		6CA17A6B28ADFF6A0055BECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA17A4828ADFF690055BECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA17A4F28ADFF690055BECB;
+			remoteInfo = KittenKindergarten;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C61C79528AE016F00A4EAB8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6CA17A5028ADFF690055BECB /* KittenKindergarten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KittenKindergarten.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA17A5328ADFF690055BECB /* KittenKindergartenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenKindergartenApp.swift; sourceTree = "<group>"; };
+		6CA17A5528ADFF690055BECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6CA17A5728ADFF6A0055BECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CA17A5A28ADFF6A0055BECB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CA17A6028ADFF6A0055BECB /* KittenKindergartenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittenKindergartenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA17A6428ADFF6A0055BECB /* KittenKindergartenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenKindergartenTests.swift; sourceTree = "<group>"; };
+		6CA17A6A28ADFF6A0055BECB /* KittenKindergartenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittenKindergartenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA17A6E28ADFF6A0055BECB /* KittenKindergartenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenKindergartenUITests.swift; sourceTree = "<group>"; };
+		6CA17A7028ADFF6A0055BECB /* KittenKindergartenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenKindergartenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6CA17A8028ADFFEA0055BECB /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		6CA17A8228AE000E0055BECB /* GroupCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCellViewModel.swift; sourceTree = "<group>"; };
+		6CA17A8428AE00200055BECB /* GroupListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListViewModel.swift; sourceTree = "<group>"; };
+		6CA17A8628AE00360055BECB /* AgeGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeGroupView.swift; sourceTree = "<group>"; };
+		6CA17A8828AE004A0055BECB /* AgeQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeQuizView.swift; sourceTree = "<group>"; };
+		6CA17A8A28AE005B0055BECB /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		6CA17A8C28AE00690055BECB /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		6CA17A8E28AE00740055BECB /* GroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListView.swift; sourceTree = "<group>"; };
+		6CA17A9028AE00890055BECB /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		6CA17A9228AE009C0055BECB /* GroupRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRepository.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CA17A4D28ADFF690055BECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C61C79028AE016800A4EAB8 /* FirebaseAuth in Frameworks */,
+				6C61C79228AE016800A4EAB8 /* FirebaseFirestore in Frameworks */,
+				6C61C79428AE016800A4EAB8 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA17A5D28ADFF6A0055BECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA17A6728ADFF6A0055BECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CA17A4728ADFF690055BECB = {
+			isa = PBXGroup;
+			children = (
+				6CA17A5228ADFF690055BECB /* KittenKindergarten */,
+				6CA17A6328ADFF6A0055BECB /* KittenKindergartenTests */,
+				6CA17A6D28ADFF6A0055BECB /* KittenKindergartenUITests */,
+				6CA17A5128ADFF690055BECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA17A5128ADFF690055BECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA17A5028ADFF690055BECB /* KittenKindergarten.app */,
+				6CA17A6028ADFF6A0055BECB /* KittenKindergartenTests.xctest */,
+				6CA17A6A28ADFF6A0055BECB /* KittenKindergartenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CA17A5228ADFF690055BECB /* KittenKindergarten */ = {
+			isa = PBXGroup;
+			children = (
+				6C61C79528AE016F00A4EAB8 /* GoogleService-Info.plist */,
+				6CA17A5328ADFF690055BECB /* KittenKindergartenApp.swift */,
+				6CA17A7F28ADFF940055BECB /* Components */,
+				6CA17A7E28ADFF860055BECB /* Views */,
+				6CA17A7D28ADFF6F0055BECB /* Data Models */,
+				6CA17A5728ADFF6A0055BECB /* Assets.xcassets */,
+				6CA17A5928ADFF6A0055BECB /* Preview Content */,
+			);
+			path = KittenKindergarten;
+			sourceTree = "<group>";
+		};
+		6CA17A5928ADFF6A0055BECB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6CA17A5A28ADFF6A0055BECB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CA17A6328ADFF6A0055BECB /* KittenKindergartenTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA17A6428ADFF6A0055BECB /* KittenKindergartenTests.swift */,
+			);
+			path = KittenKindergartenTests;
+			sourceTree = "<group>";
+		};
+		6CA17A6D28ADFF6A0055BECB /* KittenKindergartenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA17A6E28ADFF6A0055BECB /* KittenKindergartenUITests.swift */,
+				6CA17A7028ADFF6A0055BECB /* KittenKindergartenUITestsLaunchTests.swift */,
+			);
+			path = KittenKindergartenUITests;
+			sourceTree = "<group>";
+		};
+		6CA17A7D28ADFF6F0055BECB /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				6CA17A8028ADFFEA0055BECB /* Group.swift */,
+				6CA17A8228AE000E0055BECB /* GroupCellViewModel.swift */,
+				6CA17A8428AE00200055BECB /* GroupListViewModel.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		6CA17A7E28ADFF860055BECB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CA17A5528ADFF690055BECB /* ContentView.swift */,
+				6CA17A8628AE00360055BECB /* AgeGroupView.swift */,
+				6CA17A8828AE004A0055BECB /* AgeQuizView.swift */,
+				6CA17A8A28AE005B0055BECB /* QuestionView.swift */,
+				6CA17A8C28AE00690055BECB /* ResultView.swift */,
+				6CA17A8E28AE00740055BECB /* GroupListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6CA17A7F28ADFF940055BECB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6CA17A9028AE00890055BECB /* Styles.swift */,
+				6CA17A9228AE009C0055BECB /* GroupRepository.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA17A4F28ADFF690055BECB /* KittenKindergarten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA17A7428ADFF6A0055BECB /* Build configuration list for PBXNativeTarget "KittenKindergarten" */;
+			buildPhases = (
+				6CA17A4C28ADFF690055BECB /* Sources */,
+				6CA17A4D28ADFF690055BECB /* Frameworks */,
+				6CA17A4E28ADFF690055BECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KittenKindergarten;
+			packageProductDependencies = (
+				6C61C78F28AE016800A4EAB8 /* FirebaseAuth */,
+				6C61C79128AE016800A4EAB8 /* FirebaseFirestore */,
+				6C61C79328AE016800A4EAB8 /* FirebaseFirestoreSwift */,
+			);
+			productName = KittenKindergarten;
+			productReference = 6CA17A5028ADFF690055BECB /* KittenKindergarten.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CA17A5F28ADFF6A0055BECB /* KittenKindergartenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA17A7728ADFF6A0055BECB /* Build configuration list for PBXNativeTarget "KittenKindergartenTests" */;
+			buildPhases = (
+				6CA17A5C28ADFF6A0055BECB /* Sources */,
+				6CA17A5D28ADFF6A0055BECB /* Frameworks */,
+				6CA17A5E28ADFF6A0055BECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA17A6228ADFF6A0055BECB /* PBXTargetDependency */,
+			);
+			name = KittenKindergartenTests;
+			productName = KittenKindergartenTests;
+			productReference = 6CA17A6028ADFF6A0055BECB /* KittenKindergartenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CA17A6928ADFF6A0055BECB /* KittenKindergartenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA17A7A28ADFF6A0055BECB /* Build configuration list for PBXNativeTarget "KittenKindergartenUITests" */;
+			buildPhases = (
+				6CA17A6628ADFF6A0055BECB /* Sources */,
+				6CA17A6728ADFF6A0055BECB /* Frameworks */,
+				6CA17A6828ADFF6A0055BECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA17A6C28ADFF6A0055BECB /* PBXTargetDependency */,
+			);
+			name = KittenKindergartenUITests;
+			productName = KittenKindergartenUITests;
+			productReference = 6CA17A6A28ADFF6A0055BECB /* KittenKindergartenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CA17A4828ADFF690055BECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6CA17A4F28ADFF690055BECB = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					6CA17A5F28ADFF6A0055BECB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 6CA17A4F28ADFF690055BECB;
+					};
+					6CA17A6928ADFF6A0055BECB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 6CA17A4F28ADFF690055BECB;
+					};
+				};
+			};
+			buildConfigurationList = 6CA17A4B28ADFF690055BECB /* Build configuration list for PBXProject "KittenKindergarten" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CA17A4728ADFF690055BECB;
+			packageReferences = (
+				6C61C78E28AE016800A4EAB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 6CA17A5128ADFF690055BECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA17A4F28ADFF690055BECB /* KittenKindergarten */,
+				6CA17A5F28ADFF6A0055BECB /* KittenKindergartenTests */,
+				6CA17A6928ADFF6A0055BECB /* KittenKindergartenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CA17A4E28ADFF690055BECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA17A5B28ADFF6A0055BECB /* Preview Assets.xcassets in Resources */,
+				6CA17A5828ADFF6A0055BECB /* Assets.xcassets in Resources */,
+				6C61C79628AE016F00A4EAB8 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA17A5E28ADFF6A0055BECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA17A6828ADFF6A0055BECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA17A4C28ADFF690055BECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA17A9128AE00890055BECB /* Styles.swift in Sources */,
+				6CA17A8B28AE005B0055BECB /* QuestionView.swift in Sources */,
+				6CA17A8328AE000E0055BECB /* GroupCellViewModel.swift in Sources */,
+				6CA17A8F28AE00740055BECB /* GroupListView.swift in Sources */,
+				6CA17A8D28AE00690055BECB /* ResultView.swift in Sources */,
+				6CA17A8128ADFFEA0055BECB /* Group.swift in Sources */,
+				6CA17A5628ADFF690055BECB /* ContentView.swift in Sources */,
+				6CA17A8528AE00200055BECB /* GroupListViewModel.swift in Sources */,
+				6CA17A8728AE00360055BECB /* AgeGroupView.swift in Sources */,
+				6CA17A9328AE009C0055BECB /* GroupRepository.swift in Sources */,
+				6CA17A5428ADFF690055BECB /* KittenKindergartenApp.swift in Sources */,
+				6CA17A8928AE004A0055BECB /* AgeQuizView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA17A5C28ADFF6A0055BECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA17A6528ADFF6A0055BECB /* KittenKindergartenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA17A6628ADFF6A0055BECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA17A6F28ADFF6A0055BECB /* KittenKindergartenUITests.swift in Sources */,
+				6CA17A7128ADFF6A0055BECB /* KittenKindergartenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CA17A6228ADFF6A0055BECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA17A4F28ADFF690055BECB /* KittenKindergarten */;
+			targetProxy = 6CA17A6128ADFF6A0055BECB /* PBXContainerItemProxy */;
+		};
+		6CA17A6C28ADFF6A0055BECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA17A4F28ADFF690055BECB /* KittenKindergarten */;
+			targetProxy = 6CA17A6B28ADFF6A0055BECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6CA17A7228ADFF6A0055BECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CA17A7328ADFF6A0055BECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CA17A7528ADFF6A0055BECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KittenKindergarten/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UN966D837;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophiamiles.KittenKindergarten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CA17A7628ADFF6A0055BECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KittenKindergarten/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UN966D837;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophiamiles.KittenKindergarten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CA17A7828ADFF6A0055BECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UN966D837;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophiamiles.KittenKindergartenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KittenKindergarten.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KittenKindergarten";
+			};
+			name = Debug;
+		};
+		6CA17A7928ADFF6A0055BECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UN966D837;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophiamiles.KittenKindergartenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KittenKindergarten.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KittenKindergarten";
+			};
+			name = Release;
+		};
+		6CA17A7B28ADFF6A0055BECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UN966D837;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophiamiles.KittenKindergartenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KittenKindergarten;
+			};
+			name = Debug;
+		};
+		6CA17A7C28ADFF6A0055BECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UN966D837;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophiamiles.KittenKindergartenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KittenKindergarten;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA17A4B28ADFF690055BECB /* Build configuration list for PBXProject "KittenKindergarten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA17A7228ADFF6A0055BECB /* Debug */,
+				6CA17A7328ADFF6A0055BECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA17A7428ADFF6A0055BECB /* Build configuration list for PBXNativeTarget "KittenKindergarten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA17A7528ADFF6A0055BECB /* Debug */,
+				6CA17A7628ADFF6A0055BECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA17A7728ADFF6A0055BECB /* Build configuration list for PBXNativeTarget "KittenKindergartenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA17A7828ADFF6A0055BECB /* Debug */,
+				6CA17A7928ADFF6A0055BECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA17A7A28ADFF6A0055BECB /* Build configuration list for PBXNativeTarget "KittenKindergartenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA17A7B28ADFF6A0055BECB /* Debug */,
+				6CA17A7C28ADFF6A0055BECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6C61C78E28AE016800A4EAB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6C61C78F28AE016800A4EAB8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C61C78E28AE016800A4EAB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6C61C79128AE016800A4EAB8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C61C78E28AE016800A4EAB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6C61C79328AE016800A4EAB8 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C61C78E28AE016800A4EAB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6CA17A4828ADFF690055BECB /* Project object */;
+}
